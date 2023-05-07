@@ -1,0 +1,13 @@
+:root {
+  /*color*/
+  --background-dark: #06071b;
+  --all-white-text: #ffffff;
+  --all-black-text: #000000;
+
+  /*font-size*/
+  --font-size-header: 12px;
+  --font-size-headlines-h2: 24px;
+
+  /*font-family*/
+  --primary-font: 'Inter', sans-serif;
+}

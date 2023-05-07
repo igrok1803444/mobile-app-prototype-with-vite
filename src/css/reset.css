@@ -1,4 +1,4 @@
-/* Reset styles */
+/* reset start */
 h1,
 h2,
 h3,
@@ -8,28 +8,20 @@ h6,
 p {
   margin: 0;
 }
-
-p:last-child {
-  margin-bottom: 0;
+img {
+  display: block;
 }
-
-ul {
-  margin: 0;
-  padding: 0;
+.list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
-
-a {
-  color: currentColor;
+.link {
+  color: inherit;
   text-decoration: none;
 }
-
 button {
   cursor: pointer;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
+/* reset start */
