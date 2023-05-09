@@ -1,0 +1,48 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--header-zidx);
+
+  width: 100%;
+
+  background-color: var(--background-dark);
+  background-image: var(--header-gradient);
+  backdrop-filter: blur(17.5px);
+}
+
+.logo-link {
+  display: block;
+
+  margin-right: 748px;
+
+  padding: 20px 0;
+
+  font-size: var(--font-size-logo);
+  line-height: 1.2;
+  font-weight: 400;
+
+  color: var(--all-white-text);
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-link {
+  display: block;
+
+  padding: 28px 0;
+
+  font-size: var(--font-size-header);
+  line-height: 1.25;
+  font-weight: 400;
+
+  text-transform: uppercase;
+
+  color: var(--all-white-text);
+}
