@@ -1,15 +1,14 @@
 .hero-BG {
+  position: relative;
   background-color: var(--background-dark);
+}
 
-  padding-bottom: 100px;
-  padding-right: 16px;
-  padding-left: 16px;
-  min-width: 1248px;
-  height: 684px;
-}
 .wraper {
-  margin-top: 250px;
+  position: relative;
+  left: 16px;
+  top: 243px;
 }
+
 /*hero title*/
 .hero-headline {
   color: var(--all-white-text);
@@ -149,7 +148,6 @@
 /*Button*/
 
 .button-download {
-  position: relative;
   background: linear-gradient(90.03deg, #00c5eb -1.97%, #b544fe 89.43%);
   color: #ffffff;
 
@@ -183,15 +181,11 @@
 
 /*image*/
 
-.imgs {
-  margin-right: 55px;
-}
-
 .phone {
   position: absolute;
 
   left: 820px;
-  top: 277px;
+  top: 250px;
   z-index: 1;
 }
 
@@ -244,10 +238,16 @@
 
   top: 282px;
   left: 883.66px;
+  background: rgba(125, 85, 255, 0.5);
+  filter: blur(51.5px);
+  transform: rotate(19.52deg);
 }
 
 .ellipse-secondary {
   position: absolute;
   left: 1050px;
   top: 200.45px;
+  background: rgba(0, 197, 235, 0.5);
+  filter: blur(51.5px);
+  transform: matrix(0.89, 0.45, 0.45, -0.89, 0, 0);
 }
