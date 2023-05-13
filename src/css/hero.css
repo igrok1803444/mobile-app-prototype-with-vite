@@ -1,12 +1,17 @@
-.hero-BG {
-  position: relative;
+.hero-section {
+  height: 684px;
   background-color: var(--background-dark);
 }
-
-.wraper {
+.hero-wrapper {
   position: relative;
-  left: 16px;
-  top: 243px;
+
+  margin: 0 auto;
+
+  padding-top: 243px;
+
+  height: 100%;
+
+  width: 1280px;
 }
 
 /*hero title*/

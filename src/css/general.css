@@ -1,11 +1,12 @@
 body {
   font-family: 'Inter', sans-serif;
-  padding-top: 74px;
 }
 
 .container {
+  margin: 0 auto;
+
   padding-right: 16px;
   padding-left: 16px;
-  max-width: 1280px;
-  height: 684px;
+
+  width: 1280px;
 }
